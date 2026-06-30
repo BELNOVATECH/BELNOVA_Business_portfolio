@@ -133,25 +133,26 @@
 ========================================== */
 
 .footer-contact{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:12px;
-
-    margin-bottom:18px;
-
-    color:#94a3b8;
-
+    display: flex;
+    align-items: flex-start;   /* center -> flex-start */
+    gap: 16px;
+    margin-bottom: 18px;
 }
 
 .footer-contact svg{
-
-    color:#00d4ff;
-
+    width: 22px;
+    min-width: 22px;
+    height: 22px;
+    color: #00d4ff;
+    flex-shrink: 0;
+    margin-top: 2px;          /* icon text first line ki align avuthundi */
 }
 
+.footer-contact span{
+    color: #94a3b8;
+    line-height: 1.5;
+    margin: 0;
+}
 /* ==========================================
    SOCIAL
 ========================================== */
