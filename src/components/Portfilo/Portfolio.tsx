@@ -1,5 +1,5 @@
 import "./Portfolio.css";
-import { Check, ArrowUpRight } from "lucide-react";
+import { Check } from "lucide-react";
 
 const projects = [
   {
@@ -232,7 +232,7 @@ export default function Portfolio() {
 
             </div>
 
-            <div className="project-footer">
+            {/* <div className="project-footer">
 
               <button>
 
@@ -242,7 +242,7 @@ export default function Portfolio() {
 
               </button>
 
-            </div>
+            </div> */}
 
           </div>
 

@@ -320,17 +320,17 @@ mask: linear-gradient(#000, transparent);
    Footer
 ========================================== */
 
-.project-footer{
+/* .project-footer{
 
     margin-top:auto;
 
-}
+} */
 
 /* ==========================================
    Button
 ========================================== */
 
-.project-footer button{
+/* .project-footer button{
 
     display:inline-flex;
 
@@ -383,7 +383,7 @@ mask: linear-gradient(#000, transparent);
 
     transform:translateX(6px);
 
-}
+} */
 
 /* ==========================================
    Hover Effects

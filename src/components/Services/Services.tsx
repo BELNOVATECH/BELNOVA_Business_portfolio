@@ -8,6 +8,7 @@ import {
   Globe,
   Smartphone,
   ShieldCheck,
+  Users,
 } from "lucide-react";
 
 const icons = [
@@ -17,6 +18,7 @@ const icons = [
   <Globe size={42} />,
   <Smartphone size={42} />,
   <ShieldCheck size={42} />,
+  <Users size={42} />, // Outsourcing
 ];
 
 function Services() {

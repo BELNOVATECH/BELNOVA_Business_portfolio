@@ -55,4 +55,12 @@ export const services = [
       "Our cybersecurity services include vulnerability assessment, penetration testing, network security, endpoint protection, cloud security, identity management, compliance solutions, and continuous security monitoring.",
     icon: ShieldCheck,
   },
+  {
+  title: "IT Resource Outsourcing",
+  description:
+    "Provide skilled IT professionals to help businesses scale faster, reduce hiring costs, and successfully deliver projects.",
+
+  details:
+    "We offer highly skilled software developers, UI/UX designers, QA engineers, cloud specialists, DevOps engineers, data analysts, and technical consultants on contract, dedicated, or project-based engagement models. Our outsourcing services help organizations quickly access experienced talent, accelerate project delivery, reduce recruitment overhead, and focus on their core business while we manage the technical workforce."
+},
 ];

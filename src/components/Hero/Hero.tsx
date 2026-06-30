@@ -162,9 +162,9 @@ function Hero() {
 
             <div className="floating-card ai">
 
-              <h4>AI Powered</h4>
+              <h4>App Development</h4>
 
-              <p>Automation</p>
+              <p>Web • Mobile</p>
 
             </div>
 

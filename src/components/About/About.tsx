@@ -5,7 +5,7 @@ import "./About.css";
 // import { FaLinkedinIn } from "react-icons/fa6";
 const leaders = [
   {
-    name: "Rahul Sharma",
+    name: "Bala Ramesh Kollu ",
     role: "Director",
     image:
       "https://randomuser.me/api/portraits/men/32.jpg",
@@ -14,16 +14,16 @@ const leaders = [
   },
 
   {
-    name: "Neha Kapoor",
+    name: "Anaparthi Raju Moode",
     role: "Director",
     image:
-      "https://randomuser.me/api/portraits/women/44.jpg",
+      "https://randomuser.me/api/portraits/men/44.jpg",
     description:
       "Oversees operations, innovation and customer success to ensure exceptional service delivery.",
   },
 
   {
-    name: "Arjun Patel",
+    name: "Jayanth kundeti",
     role: "Chief Technology Officer",
     image:
       "https://randomuser.me/api/portraits/men/51.jpg",
@@ -32,7 +32,7 @@ const leaders = [
   },
 
   {
-    name: "Kiran Reddy",
+    name: "Raja Shekhar Maddi",
     role: "Development Lead",
     image:
       "https://randomuser.me/api/portraits/men/65.jpg",
@@ -41,7 +41,7 @@ const leaders = [
   },
 
   {
-    name: "Priya Menon",
+    name: "Priyanka Batchu",
     role: "HR Lead",
     image:
       "https://randomuser.me/api/portraits/women/52.jpg",
@@ -50,10 +50,10 @@ const leaders = [
   },
 
   {
-    name: "David Wilson",
+    name: "Dhanusha nimmgadda",
     role: "Database Lead",
     image:
-      "https://randomuser.me/api/portraits/men/83.jpg",
+      "https://randomuser.me/api/portraits/women/12.jpg",
     description:
       "Designs secure, optimized and high-performance database architectures for enterprise systems.",
   },
