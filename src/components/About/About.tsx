@@ -3,6 +3,7 @@ import priyanka from "../../assets/priyanka.jpg";
 import bala from "../../assets/bala.jpg";
 import raju from "../../assets/raju.jpg";
 import dhanusha from "../../assets/dhanusha.jpg";
+import rajasekhar from "../../assets/rajasekhar.jpg";
 // import {
 //   Mail
 // } from "lucide-react";
@@ -27,7 +28,8 @@ const leaders = [
   {
     name: "Jayanth kundeti",
     role: "Chief Technology Officer",
-    image: dhanusha,
+    image:
+      "https://randomuser.me/api/portraits/men/51.jpg",
     description:
       "Architects scalable cloud platforms, AI products and enterprise software solutions.",
   },
@@ -35,8 +37,7 @@ const leaders = [
   {
     name: "Raja Shekhar Maddi",
     role: "Development Lead",
-    image:
-      "https://randomuser.me/api/portraits/men/65.jpg",
+    image: rajasekhar,
     description:
       "Manages engineering teams delivering modern web, mobile and enterprise applications.",
   },
@@ -52,8 +53,7 @@ const leaders = [
   {
     name: "Dhanusha nimmgadda",
     role: "Database Lead",
-    image:
-      "https://randomuser.me/api/portraits/women/12.jpg",
+    image: dhanusha,
     description:
       "Designs secure, optimized and high-performance database architectures for enterprise systems.",
   },
