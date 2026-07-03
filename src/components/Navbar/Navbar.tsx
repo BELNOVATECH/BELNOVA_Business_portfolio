@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import logo from "../../assets/belnova-logo.png";
 import "./Navbar.css";
 
 function Navbar() {
@@ -11,18 +12,15 @@ function Navbar() {
     <header className="navbar">
       <div className="navbar-container">
 
-        {/* Text Logo */}
+        {/* Logo */}
         <a href="#home" className="logo" onClick={closeMenu}>
-          <span>Belnova</span>
-          <strong>Tech</strong>
+          <img src={logo} alt="Belnova Tech" />
         </a>
 
-        {/* Navigation */}
         <nav className={`nav ${menuOpen ? "active" : ""}`}>
           <a href="#home" onClick={closeMenu}>Home</a>
           <a href="#services" onClick={closeMenu}>Services</a>
           <a href="#portfolio" onClick={closeMenu}>Portfolio</a>
-          {/* <a href="#leadership" onClick={closeMenu}>Hire Developers</a> */}
           <a href="#about" onClick={closeMenu}>About</a>
           <a href="#contact" onClick={closeMenu}>Contact</a>
         </nav>

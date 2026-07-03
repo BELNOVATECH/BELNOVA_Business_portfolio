@@ -1,4 +1,8 @@
 import "./About.css";
+import priyanka from "../../assets/priyanka.jpg";
+import bala from "../../assets/bala.jpg";
+import raju from "../../assets/raju.jpg";
+import dhanusha from "../../assets/dhanusha.jpg";
 // import {
 //   Mail
 // } from "lucide-react";
@@ -7,8 +11,7 @@ const leaders = [
   {
     name: "Bala Ramesh Kollu ",
     role: "Director",
-    image:
-      "https://randomuser.me/api/portraits/men/32.jpg",
+    image: bala,
     description:
       "Leads the company's vision, strategy and long-term business growth while building strong global partnerships.",
   },
@@ -16,8 +19,7 @@ const leaders = [
   {
     name: "Anaparthi Raju Moode",
     role: "Director",
-    image:
-      "https://randomuser.me/api/portraits/men/44.jpg",
+    image: raju,
     description:
       "Oversees operations, innovation and customer success to ensure exceptional service delivery.",
   },
@@ -25,8 +27,7 @@ const leaders = [
   {
     name: "Jayanth kundeti",
     role: "Chief Technology Officer",
-    image:
-      "https://randomuser.me/api/portraits/men/51.jpg",
+    image: dhanusha,
     description:
       "Architects scalable cloud platforms, AI products and enterprise software solutions.",
   },
@@ -43,8 +44,7 @@ const leaders = [
   {
     name: "Priyanka Batchu",
     role: "HR Lead",
-    image:
-      "https://randomuser.me/api/portraits/women/52.jpg",
+    image: priyanka,
     description:
       "Builds high-performing teams, promotes company culture and drives employee engagement.",
   },
@@ -84,40 +84,20 @@ function Leadership() {
 
         {leaders.map((leader) => (
 
-          <div className="leader-card" key={leader.name}>
+<div className="leader-card" key={leader.name}>
+  <div className="leader-image">
+    <img
+      src={leader.image}
+      alt={leader.name}
+    />
+  </div>
 
-            <div className="leader-image">
-
-              <img
-                src={leader.image}
-                alt={leader.name}
-              />
-
-            </div>
-
-            <div className="leader-info">
-
-              <h3>{leader.name}</h3>
-
-              <span>{leader.role}</span>
-
-              <p>{leader.description}</p>
-
-              <div className="leader-social">
-
-                <a href="#">
-                {/* <FaLinkedinIn size={18} /> */}
-                </a>
-
-                <a href="#">
-                  {/* <Mail size={18}/> */}
-                </a>
-
-              </div>
-
-            </div>
-
-          </div>
+  <div className="leader-info">
+    <h3>{leader.name}</h3>
+    <span>{leader.role}</span>
+    <p>{leader.description}</p>
+  </div>
+</div>
 
         ))}
 

@@ -32,11 +32,13 @@ section{
 
     z-index:999;
 
-    background:rgba(8,12,25,.88);
+   background:rgba(7,12,24,.82);
+backdrop-filter:blur(22px);
+-webkit-backdrop-filter:blur(22px);
 
     backdrop-filter:blur(18px);
 
-    border-bottom:1px solid rgba(255,255,255,.08);
+    border-bottom:1px solid rgba(255,255,255,.05);
 
     transition:.35s;
 }
@@ -84,22 +86,24 @@ section{
 =========================== */
 
 .logo{
-
-    text-decoration:none;
-
     display:flex;
-
     align-items:center;
-
-    font-size:34px;
-
-    font-weight:800;
-
-    font-family:monospace;
-
-    letter-spacing:.5px;
-
+    text-decoration:none;
     z-index:1001;
+}
+
+.logo img{
+    height:60px;
+    width:auto;
+    object-fit:contain;
+    transition:.35s;
+    filter:
+      drop-shadow(0 0 8px rgba(0,198,255,.18))
+      drop-shadow(0 0 18px rgba(123,92,255,.12));
+}
+
+.logo img:hover{
+    transform:scale(1.04);
 }
 
 .logo span{
@@ -382,6 +386,22 @@ section{
 .nav a{
 
     font-size:16px;
+}
+
+}
+
+@media(max-width:900px){
+
+.logo img{
+    height:52px;
+}
+
+}
+
+@media(max-width:420px){
+
+.logo img{
+    height:46px;
 }
 
 }
