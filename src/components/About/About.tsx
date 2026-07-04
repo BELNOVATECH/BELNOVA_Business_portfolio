@@ -4,6 +4,7 @@ import bala from "../../assets/bala.jpg";
 import raju from "../../assets/raju.jpg";
 import dhanusha from "../../assets/dhanusha.jpg";
 import rajasekhar from "../../assets/rajasekhar.jpg";
+import { MdAccountCircle } from "react-icons/md";
 // import {
 //   Mail
 // } from "lucide-react";
@@ -29,7 +30,7 @@ const leaders = [
     name: "Jayanth kundeti",
     role: "Chief Technology Officer",
     image:
-      "https://randomuser.me/api/portraits/men/51.jpg",
+      null,
     description:
       "Architects scalable cloud platforms, AI products and enterprise software solutions.",
   },
@@ -85,12 +86,13 @@ function Leadership() {
         {leaders.map((leader) => (
 
 <div className="leader-card" key={leader.name}>
-  <div className="leader-image">
-    <img
-      src={leader.image}
-      alt={leader.name}
-    />
-  </div>
+<div className="leader-image">
+  {leader.image ? (
+    <img src={leader.image} alt={leader.name} />
+  ) : (
+    <MdAccountCircle className="default-avatar" />
+  )}
+</div>
 
   <div className="leader-info">
     <h3>{leader.name}</h3>
