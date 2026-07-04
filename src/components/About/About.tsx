@@ -27,7 +27,7 @@ const leaders = [
   },
 
   {
-    name: "Jayanth kundeti",
+    name: "Kumar kundeti",
     role: "Chief Technology Officer",
     image:
       null,
