@@ -12,7 +12,7 @@ const projects = [
 
     tech: [
       "React",
-      ".NET Core",
+      "Python",
       "SQL Server",
       "REST APIs",
     ],
@@ -35,7 +35,7 @@ const projects = [
 
     tech: [
       "React",
-      ".NET Core",
+      "Python",
       "SQL Server",
       "Azure",
     ],
@@ -58,7 +58,7 @@ const projects = [
 
     tech: [
       "React",
-      ".NET Core",
+      ".NET",
       "SQL Server",
       "Docker",
     ],
@@ -104,7 +104,7 @@ const projects = [
 
     tech: [
       "React",
-      ".NET Core",
+      "Python",
       "SQL Server",
       "REST APIs",
     ],
@@ -127,7 +127,7 @@ const projects = [
 
     tech: [
       "React",
-      "Node.js",
+      ".NET",
       "MongoDB",
       "Stripe",
     ],

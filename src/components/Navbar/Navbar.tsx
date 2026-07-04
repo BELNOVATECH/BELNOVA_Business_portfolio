@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "../../assets/belnova-logo.png";
+import logo from "../../assets/logo1.png";
 import "./Navbar.css";
 
 function Navbar() {
