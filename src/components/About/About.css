@@ -230,11 +230,10 @@ gap:28px;
 
 }
 
-.leader-image{
-
-height:300px;
-
-}
+    .leader-image{
+        width:180px;
+        height:180px;
+    }
 
 }
 
@@ -252,10 +251,9 @@ font-size:1.3rem;
 
 }
 
-.leader-image{
-
-height:260px;
-
-}
+    .leader-image{
+        width:160px;
+        height:160px;
+    }
 
 }
